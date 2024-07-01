@@ -40,3 +40,20 @@ header {
 form .btn {
   background-color: #10caf0;
 }
+
+footer {
+  height: 4rem;
+  background-color: #10caf0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons i {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 24px;
+}
