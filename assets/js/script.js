@@ -14,15 +14,18 @@ $(function () {
 });
 
 //smooth scroll
-$(document).ready(function() {
-  $('a[href^="#"]').on('click', function(e) {
+$(document).ready(function () {
+  $('a[href^="#"]').on("click", function (e) {
     e.preventDefault();
-    
-    var targetId = $(this).attr('href');
+
+    var targetId = $(this).attr("href");
     var offset = $(targetId).offset().top;
-    
-    $('html, body').animate({
-      scrollTop: offset
-    }, 1000); 
+
+    $("html, body").animate(
+      {
+        scrollTop: offset,
+      },
+      1000
+    );
   });
 });
