@@ -1,6 +1,6 @@
 # ViajesChile
 
-Estructura del Proyecto
+Estructura Base
 
     -index.html: Archivo principal que define la estructura de la página web.
     -assets/: Carpeta para recursos adicionales.
@@ -11,10 +11,10 @@ Estructura del Proyecto
     
 
 
-[!Note]
-Estructura del sitio
+Uso de etiquetas, estructuras y despliegue
 
     -index.html: html5
+    
     -styles.css: Estilos personalizados.(sintaxis de CSS utilizando selectores y clases definiendoaspecto visual del documento.Se utilizan recursos externos como Google Fonts y Font Awesome, para definir el estilo de fuente).
 
     -bootstrap.min.css: Estilos de Bootstrap. (Se realizar una  integración del CDN de Bootstrap. Uso de la grilla y de clases usadas)
